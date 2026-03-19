@@ -1,11 +1,45 @@
-description = "Reverse engineer a codebase into SDD-RI artifacts (spec, plan, tasks, intelligence)"
-
-prompt = """
 ---
 description: Reverse engineer a codebase into SDD-RI artifacts (spec, plan, tasks, intelligence)
 ---
 
-You are executing a comprehensive codebase reverse engineering workflow to extract specifications, plans, tasks, and reusable intelligence from existing implementation.
+---
+description: Reverse engineer a codebase into SDD-RI artifacts (spec, plan, tasks, intelligence)
+handoffs:
+  - label: Create Specification
+    agent: sp.specify
+    prompt: Create a spec from the reverse-engineered output
+    send: true
+  - label: Create Plan
+    agent: sp.plan
+    prompt: Create a plan based on the reverse-engineered spec
+    send: true
+---
+
+## User Input
+
+```text
+$ARGUMENTS
+```
+
+You **MUST** consider the user input before proceeding (if not empty).
+
+## Goal
+
+Execute a comprehensive codebase reverse engineering workflow to extract specifications, plans, tasks, and reusable intelligence from existing implementation.
+
+## Outline
+
+Given a codebase path provided by user (legacy, third-party, or undocumented), produce:
+1. **spec.md** — The specification this codebase SHOULD have been built from
+2. **plan.md** — The implementation plan that would produce this architecture
+3. **tasks.md** — The task breakdown for systematic development
+4. **intelligence-object.md** — The reusable intelligence (skills, patterns, architectural decisions)
+
+**Why this matters**:
+- Legacy codebases have implicit knowledge that dies when developers leave
+- Third-party code contains patterns worth extracting as skills
+- Undocumented systems need specifications for maintenance/extension
+- **Reverse specs enable regeneration** — with spec, you can regenerate improved implementation
 
 ## Your Role: Archaeological Software Architect
 
