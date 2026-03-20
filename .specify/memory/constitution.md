@@ -151,9 +151,17 @@ standards for this research project.
 
 All notable changes to this constitution are documented in this section.
 
+### Version [1.3.1] - 2026-03-20
+**Added**:
+- Changelog section to add the missing changes in changelog
+
 ### Version [1.3.0] - 2026-03-20
 **Added**:
 - Table of Contents (ToC) for improved navigation
+
+### Version [1.2.1] - 2026-03-20
+**Added**:
+- Changelog section format changelog headings to add the text `Version`
 
 ### Version [1.2.0] - 2026-03-20
 **Added**:
@@ -178,4 +186,4 @@ All notable changes to this constitution are documented in this section.
 
 ---
 
-**Version**: 1.3.0 | **Ratified**: 2026-03-20 | **Last Amended**: 2026-03-20
+**Version**: 1.3.1 | **Ratified**: 2026-03-20 | **Last Amended**: 2026-03-20
