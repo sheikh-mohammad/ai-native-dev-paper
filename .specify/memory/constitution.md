@@ -1,10 +1,10 @@
 <!--
   SYNC IMPACT REPORT
   ==================
-  Version change: 1.1.1 → 1.2.0
+  Version change: 1.2.1 → 1.3.0
   Modified principles: None
   Added sections:
-    - Changelog section for version history tracking
+    - Table of Contents (ToC) for navigation
   Removed sections: None
   Templates requiring updates:
     - .specify/templates/plan-template.md ✅ No changes needed
@@ -15,6 +15,18 @@
 -->
 
 # AI-Native Software Development Research Paper Constitution
+
+## Table of Contents
+
+1. [Core Principles](#core-principles)
+   - [I. Primary Source Verification](#i-primary-source-verification)
+   - [II. Academic Clarity](#ii-academic-clarity)
+   - [III. Reproducibility & Traceability](#iii-reproducibility--traceability)
+   - [IV. Peer-Review Rigor](#iv-peer-review-rigor)
+2. [Academic Writing Standards](#academic-writing-standards)
+3. [Research Quality Gates](#research-quality-gates)
+4. [Governance](#governance)
+5. [Changelog](#changelog)
 
 ## Core Principles
 
@@ -139,6 +151,10 @@ standards for this research project.
 
 All notable changes to this constitution are documented in this section.
 
+### Version [1.3.0] - 2026-03-20
+**Added**:
+- Table of Contents (ToC) for improved navigation
+
 ### Version [1.2.0] - 2026-03-20
 **Added**:
 - Changelog section for tracking version history
@@ -162,4 +178,4 @@ All notable changes to this constitution are documented in this section.
 
 ---
 
-**Version**: 1.2.1 | **Ratified**: 2026-03-20 | **Last Amended**: 2026-03-20
+**Version**: 1.3.0 | **Ratified**: 2026-03-20 | **Last Amended**: 2026-03-20
