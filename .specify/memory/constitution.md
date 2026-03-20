@@ -139,21 +139,21 @@ standards for this research project.
 
 All notable changes to this constitution are documented in this section.
 
-### [1.2.0] - 2026-03-20
+### Version [1.2.0] - 2026-03-20
 **Added**:
 - Changelog section for tracking version history
 
-### [1.1.1] - 2026-03-20
+### Version [1.1.1] - 2026-03-20
 **Fixed**:
 - Replaced non-English characters with "uncensored" for consistency
 
-### [1.1.0] - 2026-03-20
+### Version [1.1.0] - 2026-03-20
 **Changed**:
 - Reproducibility standard: Added testable criteria (inputs, steps, outputs, versions)
 - Source requirements: Replaced rigid 50% peer-reviewed with tier-based system (40/30/30)
 - Added citation accuracy spot-check requirement (10 random, 0 mismatches)
 
-### [1.0.0] - 2026-03-20
+### Version [1.0.0] - 2026-03-20
 **Added**:
 - Initial constitution with 4 core principles
 - Academic Writing Standards section
@@ -162,4 +162,4 @@ All notable changes to this constitution are documented in this section.
 
 ---
 
-**Version**: 1.2.0 | **Ratified**: 2026-03-20 | **Last Amended**: 2026-03-20
+**Version**: 1.2.1 | **Ratified**: 2026-03-20 | **Last Amended**: 2026-03-20
