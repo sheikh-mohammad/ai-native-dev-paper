@@ -94,11 +94,11 @@ A school district policymaker reads the paper to understand what conditions enab
 
 ### Measurable Outcomes
 
-- **SC-001**: Paper identifies at least 3 distinct AI applications with specific evidence for each
-- **SC-002**: Paper includes at least 8 citations from peer-reviewed journals published 2016-2026
-- **SC-003**: Paper word count falls within 3000-5000 word range
-- **SC-004**: 100% of effectiveness claims have at least one supporting citation
-- **SC-005**: Paper uses APA citation format consistently throughout
-- **SC-006**: Paper is delivered in Markdown format with properly formatted references
+- **SC-001**: Paper identifies at least 3 distinct AI applications with specific evidence for each (by paper completion)
+- **SC-002**: Paper includes at least 8 citations from peer-reviewed journals published 2016-2026 (by paper completion)
+- **SC-003**: Paper word count falls within 3000-5000 word range (by paper completion)
+- **SC-004**: 100% of effectiveness claims have at least one supporting citation (by paper completion)
+- **SC-005**: Paper passes APA format checklist with ≤3 formatting errors in citations and references (verified by manual audit of all 8+ references)
+- **SC-006**: Paper renders without errors in Markdown viewer with all 8+ references displaying clickable DOI/URL links
 - **SC-007**: Paper is completed within 14 calendar days from spec approval
-- **SC-008**: A test reader (education administrator) can articulate ROI after 30-minute review
+- **SC-008**: Test reader (education administrator) scores ≥4/5 on ROI comprehension quiz covering: (1) names 2+ AI applications, (2) identifies 1+ cost-benefit ratio, (3) explains 1+ implementation prerequisite
