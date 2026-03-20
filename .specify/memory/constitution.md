@@ -63,7 +63,7 @@ and built upon by the research community.
 
 Sources MUST be evaluated for methodological quality, recency, and relevance. 
 Conference papers, journal articles, and formally reviewed preprints are preferred 
-over informal publications, blog posts, or未经审查的 sources.
+over informal publications, blog posts, or uncensored sources.
 
 **Source Tier System**:
 - **Tier 1 (Required, 40%+)**: Peer-reviewed articles, conference papers
@@ -139,4 +139,4 @@ standards for this research project.
 
 ---
 
-**Version**: 1.1.0 | **Ratified**: 2026-03-20 | **Last Amended**: 2026-03-20
+**Version**: 1.1.1 | **Ratified**: 2026-03-20 | **Last Amended**: 2026-03-20
