@@ -5,6 +5,12 @@
 **Status**: Draft
 **Input**: Research paper on AI's impact on K-12 classroom efficiency. Target audience: Education administrators evaluating AI adoption. Focus: Teacher workload reduction and student outcome improvements.
 
+## Clarifications
+
+### Session 2026-03-20
+
+- Q: What geographic and socioeconomic contexts should the paper's evidence primarily address? → A: Developed nations with equity lens (developed nations primary, acknowledge gaps for under-resourced schools)
+
 ## User Scenarios & Testing
 
 ### User Story 1 - Education Administrator Evaluates AI ROI (Priority: P1)
@@ -55,7 +61,7 @@ A school district policymaker reads the paper to understand what conditions enab
 
 ### Edge Cases
 
-- How does the paper address AI tools in under-resourced schools with limited technology infrastructure?
+- **Geographic scope**: Evidence primarily from developed nations (US, EU, UK, Canada, Australia); paper acknowledges limitations for under-resourced schools lacking devices/broadband
 - What evidence exists for AI effectiveness across different subject areas (STEM vs. humanities vs. arts)?
 - How does the paper handle grade-level differences (elementary vs. middle vs. high school)?
 - What about schools with varying levels of teacher technology readiness?
