@@ -10,6 +10,7 @@
 ### Session 2026-03-20
 
 - Q: What geographic and socioeconomic contexts should the paper's evidence primarily address? → A: Developed nations with equity lens (developed nations primary, acknowledge gaps for under-resourced schools)
+- Q: What organizational approach should the research paper follow? → A: Problem-Solution-Benefit (Challenges → AI solutions → Evidence of outcomes → Implementation guidance)
 
 ## User Scenarios & Testing
 
@@ -95,6 +96,14 @@ A school district policymaker reads the paper to understand what conditions enab
 - **Student Outcomes**: Measurable improvements in student learning, engagement, or achievement
 - **ROI (Return on Investment)**: Ratio of benefits (time savings, outcome improvements) to costs (financial, training, infrastructure)
 - **Peer-Reviewed Sources**: Academic journal articles that have undergone expert review before publication
+
+## Paper Structure
+
+- **Organization**: Problem-Solution-Benefit approach
+- **Section 1 - Problem**: Current challenges in K-12 education (teacher workload crisis, efficiency gaps)
+- **Section 2 - Solution**: 3+ AI applications addressing identified challenges
+- **Section 3 - Benefit**: Evidence of outcomes (workload reduction, student improvements)
+- **Section 4 - Implementation**: Prerequisites, barriers, and guidance for adoption
 
 ## Success Criteria
 
