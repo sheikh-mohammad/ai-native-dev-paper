@@ -1,12 +1,10 @@
 <!--
   SYNC IMPACT REPORT
   ==================
-  Version change: 1.0.0 → 1.1.0
-  Modified principles:
-    - III. Reproducibility & Traceability (added testable reproducibility standard)
-    - IV. Peer-Review Rigor (updated to tier-based source system)
+  Version change: 1.1.1 → 1.2.0
+  Modified principles: None
   Added sections:
-    - Citation Accuracy standard (100% verification spot-check)
+    - Changelog section for version history tracking
   Removed sections: None
   Templates requiring updates:
     - .specify/templates/plan-template.md ✅ No changes needed
@@ -137,6 +135,31 @@ documentation.
 **Supersession**: This constitution supersedes all other writing practices and
 standards for this research project.
 
+## Changelog
+
+All notable changes to this constitution are documented in this section.
+
+### [1.2.0] - 2026-03-20
+**Added**:
+- Changelog section for tracking version history
+
+### [1.1.1] - 2026-03-20
+**Fixed**:
+- Replaced non-English characters with "uncensored" for consistency
+
+### [1.1.0] - 2026-03-20
+**Changed**:
+- Reproducibility standard: Added testable criteria (inputs, steps, outputs, versions)
+- Source requirements: Replaced rigid 50% peer-reviewed with tier-based system (40/30/30)
+- Added citation accuracy spot-check requirement (10 random, 0 mismatches)
+
+### [1.0.0] - 2026-03-20
+**Added**:
+- Initial constitution with 4 core principles
+- Academic Writing Standards section
+- Research Quality Gates with Pre-Submission Checklist
+- Governance framework with amendment process and versioning policy
+
 ---
 
-**Version**: 1.1.1 | **Ratified**: 2026-03-20 | **Last Amended**: 2026-03-20
+**Version**: 1.2.0 | **Ratified**: 2026-03-20 | **Last Amended**: 2026-03-20
