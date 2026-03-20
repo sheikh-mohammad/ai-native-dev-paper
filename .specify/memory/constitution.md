@@ -1,17 +1,13 @@
 <!--
   SYNC IMPACT REPORT
   ==================
-  Version change: 0.0.0 → 1.0.0
-  Modified principles: None (initial creation)
+  Version change: 1.0.0 → 1.1.0
+  Modified principles:
+    - III. Reproducibility & Traceability (added testable reproducibility standard)
+    - IV. Peer-Review Rigor (updated to tier-based source system)
   Added sections:
-    - I. Primary Source Verification
-    - II. Academic Clarity
-    - III. Reproducibility & Traceability
-    - IV. Peer-Review Rigor
-    - Academic Writing Standards
-    - Research Quality Gates
-    - Governance
-  Removed sections: None (initial creation)
+    - Citation Accuracy standard (100% verification spot-check)
+  Removed sections: None
   Templates requiring updates:
     - .specify/templates/plan-template.md ✅ No changes needed
     - .specify/templates/spec-template.md ✅ No changes needed
@@ -52,28 +48,46 @@ MUST include sufficient detail for independent reproduction. Data collection pro
 analysis methods, and interpretation frameworks MUST be documented with precision
 enabling verification by peer researchers.
 
+**Reproducibility Standard**: Methodology sections MUST include:
+- Input data specifications (format, size, source)
+- Step-by-step procedures (numbered, no skipped steps)
+- Expected outputs or success criteria
+- Tools/versions used (exact version numbers)
+
+**Test**: A peer researcher can replicate results following only the documented steps.
+
 **Rationale**: Scientific rigor requires that findings can be independently verified
 and built upon by the research community.
 
 ### IV. Peer-Review Rigor
 
-Minimum 50% of sources MUST be peer-reviewed academic articles. Sources MUST be
-evaluated for methodological quality, recency, and relevance. Conference papers,
-journal articles, and formally reviewed preprints are preferred over informal
-publications, blog posts, or未经审查的 sources.
+Sources MUST be evaluated for methodological quality, recency, and relevance. 
+Conference papers, journal articles, and formally reviewed preprints are preferred 
+over informal publications, blog posts, or未经审查的 sources.
 
-**Rationale**: Peer review provides quality assurance and validates that cited work
-meets academic standards for methodology and evidence.
+**Source Tier System**:
+- **Tier 1 (Required, 40%+)**: Peer-reviewed articles, conference papers
+- **Tier 2 (Allowed, 30%+)**: Official documentation, technical reports, verified preprints
+- **Tier 3 (Limited, ≤30%)**: Authoritative blog posts, recorded talks, industry whitepapers
+  - Must be from recognized experts/organizations
+  - Must be archived (Wayback Machine or institutional repository)
+  - Maximum 5 Tier 3 sources total
+
+**Rationale**: Peer review provides quality assurance. AI-native development is emerging;
+some concepts exist only in practitioner literature while maintaining academic rigor.
 
 ## Academic Writing Standards
 
 **Citation Format**: APA style (7th edition) mandatory for all references.
 
+**Citation Accuracy**: 100% of citations must pass verification spot-check
+(10 random citations verified against original sources with zero mismatches).
+
 **Source Requirements**:
 - Minimum 15 total sources
-- Minimum 50% peer-reviewed articles (7+ sources)
-- Remaining sources may include: official documentation, technical reports,
-  authoritative books, verified preprints
+- Tier 1 (Peer-reviewed): 40%+ (6+ sources)
+- Tier 2 (Technical docs/reports): 30%+ allowed
+- Tier 3 (Practitioner sources): ≤30%, maximum 5 sources total
 
 **Plagiarism Policy**: Zero tolerance (0%). All borrowed ideas, phrases, or data
 MUST be properly attributed. Paraphrasing MUST substantially rephrase and cite.
@@ -90,7 +104,8 @@ Direct quotations MUST use quotation marks and page numbers.
 **Pre-Submission Checklist**:
 - [ ] All factual claims verified against primary sources
 - [ ] Citation format consistent (APA 7th edition)
-- [ ] Peer-reviewed source threshold met (≥50%)
+- [ ] Citation accuracy spot-check passed (10 random, 0 mismatches)
+- [ ] Source tier thresholds met (Tier 1: 40%+, Tier 3: ≤5 sources)
 - [ ] Plagiarism check passed (0% similarity before submission)
 - [ ] Writing clarity validated (Flesch-Kincaid grade 10-12)
 - [ ] Word count within range (5,000-7,000)
@@ -124,4 +139,4 @@ standards for this research project.
 
 ---
 
-**Version**: 1.0.0 | **Ratified**: 2026-03-20 | **Last Amended**: 2026-03-20
+**Version**: 1.1.0 | **Ratified**: 2026-03-20 | **Last Amended**: 2026-03-20
